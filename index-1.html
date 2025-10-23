@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Deal Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    The root container.  When embedded in GHL, include
+    <div id="calc-root"></div> and load the bundled script.
+  -->
+  <div id="calc-root" class="app-container">
+    <header class="app-header">
+      <h1>Deal Analyzer</h1>
+      <nav class="strategy-tabs" role="tablist">
+        <!-- Tabs inserted dynamically by app.js -->
+      </nav>
+    </header>
+    <main class="app-main">
+      <!-- Forms and KPIs rendered here -->
+    </main>
+    <footer class="app-footer">
+      <small>&copy; 2025 Elite REI Systems</small>
+    </footer>
+  </div>
+  <script src="engine/state.js"></script>
+  <script src="engine/math.js"></script>
+  <script src="ui/components.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
